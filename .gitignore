@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+
+# Playwright debug artifacts
+debug_*.html
+debug_*.png
+debug_financials_tab.html
+debug_financials_tab.png
+
+# Generated data outputs
+data/
+
+# Local screenshots
+Screenshot*.png
