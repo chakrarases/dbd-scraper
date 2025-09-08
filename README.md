@@ -11,9 +11,9 @@
 
 **Usage**
 
-- Basic (writes JSON to `data/<ID>.json`): `python scrape_dbd.py 0105555017760`
-- Headless (CI only; may be blocked by WAF): `python scrape_dbd.py 0105555017760 --headless`
-- Debug selector tuning: `python scrape_dbd.py 0105555017760 --slow 100 -v`
+- Basic (writes JSON to `data/<ID>.json`): `python scrape_dbd_playwright.py 0105555017760`
+- Headless (CI only; may be blocked by WAF): `python scrape_dbd_playwright.py 0105555017760 --headless`
+- Debug selector tuning: `python scrape_dbd_playwright.py 0105555017760 --slow 100 -v`
 
 **Output**
 

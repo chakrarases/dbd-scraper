@@ -1,19 +1,19 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-- `scrape_dbd.py`: Main Playwright scraper. Contains CLI, navigation, extraction, and financials parsing.
+- `scrape_dbd_playwright.py`: Main Playwright scraper. Contains CLI, navigation, extraction, and financials parsing.
 - `requirements.txt`: Python dependencies (Playwright).
 - `README.md`: Quick start and usage examples.
 - `debug_*.html/png`: Saved pages and screenshots for troubleshooting; safe to delete.
 
-Keep new modules small and focused. Prefer adding helpers inside `scrape_dbd.py` only if tightly related; otherwise create new files with clear names (e.g., `selectors.py`, `parsers.py`).
+Keep new modules small and focused. Prefer adding helpers inside `scrape_dbd_playwright.py` only if tightly related; otherwise create new files with clear names (e.g., `selectors.py`, `parsers.py`).
 
 ## Build, Test, and Development Commands
 - Install deps: `pip install -r requirements.txt`
 - Install browser binaries: `python -m playwright install chromium`
-- Run scrape: `python scrape_dbd.py 0105555017760`
-- Debug run: `python scrape_dbd.py <ID> --headful --slow 100 -v`
-- Save output: `python scrape_dbd.py <ID> -o result.json`
+- Run scrape: `python scrape_dbd_playwright.py 0105555017760`
+- Debug run: `python scrape_dbd_playwright.py <ID> --headful --slow 100 -v`
+- Output: writes JSON to `data/<ID>.json` and prints the path
 
 Use headful + slow motion when adjusting selectors; commit only code, not large debug artifacts.
 
@@ -26,8 +26,8 @@ Use headful + slow motion when adjusting selectors; commit only code, not large 
 
 ## Testing Guidelines
 - Framework: None required today. Prefer lightweight smoke tests:
-  - Known-good ID: `python scrape_dbd.py 0105555017760 -v` and verify JSON keys exist.
-  - Financials only: `python scrape_dbd.py <ID> --financials-only` returns recent years list.
+  - Known-good ID: `python scrape_dbd_playwright.py 0105555017760 -v` and verify `data/<ID>.json` exists.
+  - Validate output: open the JSON and confirm `years` is non-empty and rows contain `amount` and `pct_change` fields.
 - If adding tests, use `pytest`, place files under `tests/` and name `test_*.py`.
 
 ## Commit & Pull Request Guidelines
@@ -43,4 +43,3 @@ Use headful + slow motion when adjusting selectors; commit only code, not large 
 - Prefer `--headful` during selector work; run headless in automation.
 - If the DOM changes, update selector lists conservatively and keep fallbacks.
 - Large HTML/PNG debug files should not be committed unless essential for review.
-
