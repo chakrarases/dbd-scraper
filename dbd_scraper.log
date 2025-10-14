@@ -1,0 +1,91 @@
+2025-10-09 08:47:52,420 - INFO - Attempt 1: Scraping data for juristic ID 0105555017760
+2025-10-09 08:48:54,975 - WARNING - Timeout on attempt 1 for juristic ID 0105555017760: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 08:48:54,976 - INFO - Attempt 2: Scraping data for juristic ID 0105555017760
+2025-10-09 08:50:26,030 - INFO - Attempt 1: Scraping data for juristic ID 0105555017760
+2025-10-09 08:50:32,559 - INFO - No pop-up detected or already closed.
+2025-10-09 08:51:32,570 - WARNING - Timeout on attempt 1 for juristic ID 0105555017760: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 08:51:32,570 - INFO - Attempt 2: Scraping data for juristic ID 0105555017760
+2025-10-09 08:51:39,081 - INFO - No pop-up detected or already closed.
+2025-10-09 08:52:47,496 - INFO - Attempt 1: Scraping data for juristic ID 0105555017760
+2025-10-09 08:52:48,796 - WARNING - Timeout on attempt 1 for juristic ID 0105555017760: Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://datawarehouse.dbd.go.th/index", waiting until "load"
+
+2025-10-09 08:52:48,796 - INFO - Attempt 2: Scraping data for juristic ID 0105555017760
+2025-10-09 08:52:50,069 - WARNING - Timeout on attempt 2 for juristic ID 0105555017760: Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://datawarehouse.dbd.go.th/index", waiting until "load"
+
+2025-10-09 08:52:50,069 - INFO - Attempt 3: Scraping data for juristic ID 0105555017760
+2025-10-09 08:52:51,345 - WARNING - Timeout on attempt 3 for juristic ID 0105555017760: Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://datawarehouse.dbd.go.th/index", waiting until "load"
+
+2025-10-09 08:52:51,345 - ERROR - Failed to scrape data for juristic ID 0105555017760 after 3 attempts
+2025-10-09 08:52:51,345 - INFO - Attempt 1: Scraping data for juristic ID 0105537001234
+2025-10-09 08:52:53,137 - INFO - No pop-up detected or already closed.
+2025-10-09 08:52:54,156 - WARNING - Timeout on attempt 1 for juristic ID 0105537001234: Page.wait_for_selector: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 08:52:54,156 - INFO - Attempt 2: Scraping data for juristic ID 0105537001234
+2025-10-09 08:52:55,768 - INFO - No pop-up detected or already closed.
+2025-10-09 08:52:56,779 - WARNING - Timeout on attempt 2 for juristic ID 0105537001234: Page.wait_for_selector: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 08:52:56,779 - INFO - Attempt 3: Scraping data for juristic ID 0105537001234
+2025-10-09 08:52:58,381 - INFO - No pop-up detected or already closed.
+2025-10-09 08:52:59,395 - WARNING - Timeout on attempt 3 for juristic ID 0105537001234: Page.wait_for_selector: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 08:52:59,395 - ERROR - Failed to scrape data for juristic ID 0105537001234 after 3 attempts
+2025-10-09 08:52:59,395 - INFO - Attempt 1: Scraping data for juristic ID 0105546005678
+2025-10-09 08:53:01,009 - INFO - No pop-up detected or already closed.
+2025-10-09 09:18:17,593 - INFO - Attempt 1: Scraping data for juristic ID 0105555017760
+2025-10-09 09:18:24,179 - INFO - No pop-up detected or already closed.
+2025-10-09 09:18:29,190 - WARNING - Timeout on attempt 1 for juristic ID 0105555017760: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 09:18:29,190 - INFO - Attempt 2: Scraping data for juristic ID 0105555017760
+2025-10-09 09:18:35,764 - INFO - No pop-up detected or already closed.
+2025-10-09 09:18:40,785 - WARNING - Timeout on attempt 2 for juristic ID 0105555017760: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 09:18:40,785 - INFO - Attempt 3: Scraping data for juristic ID 0105555017760
+2025-10-09 09:18:47,361 - INFO - No pop-up detected or already closed.
+2025-10-09 09:18:52,366 - WARNING - Timeout on attempt 3 for juristic ID 0105555017760: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 09:18:52,366 - ERROR - Failed to scrape data for juristic ID 0105555017760 after 3 attempts
+2025-10-09 09:18:52,366 - INFO - Attempt 1: Scraping data for juristic ID 0105537001234
+2025-10-09 09:18:57,994 - INFO - No pop-up detected or already closed.
+2025-10-09 09:36:44,642 - INFO - Attempt 1: Scraping data for juristic ID 0105542065502
+2025-10-09 09:36:51,195 - INFO - No pop-up detected or already closed.
+2025-10-09 09:36:56,202 - WARNING - Timeout on attempt 1 for juristic ID 0105542065502: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 09:36:56,202 - INFO - Attempt 2: Scraping data for juristic ID 0105542065502
+2025-10-09 09:37:02,699 - INFO - No pop-up detected or already closed.
+2025-10-09 09:37:07,704 - WARNING - Timeout on attempt 2 for juristic ID 0105542065502: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 09:37:07,705 - INFO - Attempt 3: Scraping data for juristic ID 0105542065502
+2025-10-09 09:37:14,292 - INFO - No pop-up detected or already closed.
+2025-10-09 09:37:19,304 - WARNING - Timeout on attempt 3 for juristic ID 0105542065502: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#searchText") to be visible
+
+2025-10-09 09:37:19,305 - ERROR - Failed to scrape data for juristic ID 0105542065502 after 3 attempts
